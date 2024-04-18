@@ -1603,7 +1603,7 @@ local function synsaveinstance(CustomOptions)
 											value = ldecompile(instance)
 										end
 									end
-									value = "-- Saved using UniversalSynSaveInstance https://discord.gg/wx4ThpAsmw\n\n"
+									value = "-- Thank you Synsaveinstance For Your API\n\n"
 										.. value
 								end
 
