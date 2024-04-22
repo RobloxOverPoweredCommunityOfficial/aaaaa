@@ -927,7 +927,7 @@ local function synsaveinstance(CustomOptions)
 		-- DisableCompression = false, --Description: Disables compression in the binary output
 		DecompileJobless = false, --Description: Includes already decompiled code in the output. No new scripts are decompiled.
 		SaveNonCreatable = false, --Description: Includes non-serializable instances as Folder objects (Name is misleading as this is mostly a fix for certain NilInstances and isn't always related to NotCreatable)
-		RemovePlayerCharacters = true, -- Description: Ignore player characters while saving.
+		RemovePlayerCharacters = false, -- Description: Ignore player characters while saving.
 		SavePlayers = true, -- This option does save players, it's just they won't show up in Studio and can only be viewed through the place file code (in text editor). More info at https://github.com/luau/UniversalSynSaveInstance/issues/2
 		SaveCacheInterval = 0x1600, -- The less the more often it saves, but that would mean less performance due to constantly saving
 		ReadMe = false,
